@@ -1,5 +1,5 @@
 {
-  "name": "react-native-unistyles-babel-plugin",
+  "name": "babel-plugin-react-native-unistyles",
   "version": "0.0.1",
   "files": [
     "dist/*"
