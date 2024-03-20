@@ -1,0 +1,25 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+**/node_modules/**
+_node_modules
+.pnp.cjs
+
+# Coverage directory used by tools like istanbul
+coverage
+
+.tmp
+_docpress
+
+lib
+dist
+tsconfig.tsbuildinfo
+
+# Visual Studio Code configs
+.vscode/
+
+# JetBrains IDEs
+.idea/
