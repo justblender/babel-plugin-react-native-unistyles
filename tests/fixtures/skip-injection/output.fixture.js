@@ -1,8 +1,4 @@
-import {
-  createStyleSheet,
-  useStyles,
-  useStyles as _useStyles,
-} from "react-native-unistyles";
+import { createStyleSheet, useStyles } from "react-native-unistyles";
 function EmptyFunctionNoOp() {
   return;
 }
@@ -15,18 +11,18 @@ function LocalStylesheetVariableNoOp() {
   return stylesheet.x;
 }
 function FunctionComponentWithUseStyles() {
-  const { styles } = useStyles(_stylesheet);
+  const { styles } = useStyles(stylesheet);
   return styles.x;
 }
 function FunctionComponentWithUseStylesWithoutStylesheetReference() {
-  const { theme } = useStyles(_stylesheet);
+  const { theme } = useStyles(stylesheet);
   return theme.name;
 }
 const ArrowFunctionComponentWithUseStyles = () => {
-  const { styles } = useStyles(_stylesheet);
+  const { styles } = useStyles(stylesheet);
   return styles.x;
 };
-const _stylesheet = createStyleSheet({
+const stylesheet = createStyleSheet({
   x: {
     width: 100,
   },
