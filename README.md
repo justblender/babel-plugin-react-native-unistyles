@@ -1,5 +1,8 @@
 # babel-plugin-react-native-unistyles
 
+> [!WARNING]
+> This project was designed for Unistyles version 2.0 and earlier. As of Unistyles 3.0, a built-in Babel plugin is required and it enables what this project originally aimed to do and much more.
+
 Experimental Babel plugin for React Native Unistyles to automatically inject `useStyles` hook whenever stylesheet is referenced.
 
 #### Before transformation:
